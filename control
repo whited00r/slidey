@@ -1,0 +1,9 @@
+Package: com.greyd00r.slidey
+Name: Slidey
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Slip n' Slide? No.
+Maintainer: Grayd00r
+Author: Grayd00r
+Section: Tweaks

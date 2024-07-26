@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Slidey Beta</string>
+			<key>footerText</key>
+        	<string>I'll make it more native feeling later on. This is just for basic function right now.</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.greyd00r.slidey</string>
+			<key>key</key>
+			<string>roundCorners</string>
+			<key>label</key>
+			<string>Round Corners</string>
+			<key>PostNotification</key>
+        	<string>com.greyd00r.slidey.prefsChanged</string>
+
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+			<key>footerText</key>
+        	<string>This may cause slight lag on usage of this tweak</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.greyd00r.slidey</string>
+			<key>key</key>
+			<string>allowRotation</string>
+			<key>label</key>
+			<string>DEBUG: ROTATE</string>
+			<key>PostNotification</key>
+        	<string>com.greyd00r.slidey.prefsChanged</string>
+
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+			<key>footerText</key>
+        	<string>Don't enable this.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.greyd00r.slidey</string>
+			<key>key</key>
+			<string>debug</string>
+			<key>label</key>
+			<string>Debug Logging</string>
+			<key>PostNotification</key>
+        	<string>com.greyd00r.slidey.prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.greyd00r.slidey</string>
+			<key>key</key>
+			<string>blurApp</string>
+			<key>label</key>
+			<string>Blur App</string>
+			<key>PostNotification</key>
+        	<string>com.greyd00r.slidey.prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.greyd00r.slidey</string>
+			<key>key</key>
+			<string>overrideSwitcher</string>
+			<key>label</key>
+			<string>Replace Switcher</string>
+			<key>PostNotification</key>
+        	<string>com.greyd00r.slidey.prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+			<key>footerText</key>
+        	<string>Use Slidey instead of the default app switcher</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Slidey</string>
+</dict>
+</plist>
